@@ -1,28 +1,21 @@
 @font-face {
     font-family: 'Basteleur-Bold';
     src: url('./fonts/Basteleur-Bold.otf') format('truetype');
-    /* Assurez-vous que le chemin est correct */
 }
 
 @font-face {
     font-family: 'Basteleur-Moonlight';
     src: url('./fonts/Basteleur-Moonlight.otf') format('truetype');
-    /* Assurez-vous que le chemin est correct */
 }
 
 body {
     background-color: rgb(7, 1, 21);
-    /*background: url('./img/BG.jpg');
-    overflow-y: auto;
-    background-size: contain; 
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 
 .hero {
     margin: 0;
     padding: 0;
-    background-color: rgb(7, 1, 21);
+    background-color: rgb(130, 106, 187);
 }
 
 .grid-container {
@@ -38,7 +31,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 0;
     grid-row-gap: 20px;
     }
     
@@ -82,6 +75,12 @@ body {
     font-size: 32px;
 }
 
+.div9,
+.div10,
+.div11,
+.div12{
+    font-size: 20px;
+}
 
 
 .div1,
@@ -125,6 +124,7 @@ body {
 .div6,
 .div7,
 .div8{
+    margin: 5px;
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat; 
